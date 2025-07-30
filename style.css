@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfaf6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .login {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .login img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    color: #8d591e;
+  }
+
+  h3 {
+    font-style: italic;
+    color: #a87e4f;
+    margin-bottom: 30px;
+  }
+
+  table {
+    margin: auto;
+    width: 100%;
+  }
+
+  td {
+    padding: 10px 0;
+    text-align: left;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 0.95rem;
+  }
+
+  input[type="submit"] {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    background-color: #8d591e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #a87e4f;
+  }
+
+  .signup {
+    margin-top: 20px;
+    font-size: 0.95rem;
+  }
+
+  .signup a {
+    color: #8d591e;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .signup a:hover {
+    text-decoration: underline;
+  }
